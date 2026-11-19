@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <!-- Allow cleartext traffic for the Vyro Cloudflare Worker API and
+         Pollinations fallback. All other connections require HTTPS. -->
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">vyro-ai-api.abdulsalam-dev230.workers.dev</domain>
+        <domain includeSubdomains="true">text.pollinations.ai</domain>
+        <domain includeSubdomains="true">image.pollinations.ai</domain>
+    </domain-config>
+
+    <!-- Default: require secure traffic -->
+    <domain-config cleartextTrafficPermitted="false">
+        <domain includeSubdomains="true">secure</domain>
+    </domain-config>
+</network-security-config>

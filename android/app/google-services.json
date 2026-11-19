@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "691377591215",
+    "project_id": "vyro-ai-7dce3",
+    "storage_bucket": "vyro-ai-7dce3.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:691377591215:android:c5891047b16f7c8724d55a",
+        "android_client_info": {
+          "package_name": "com.vyro.ai.vyro_ai"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "691377591215-rmv0gc2bdnk9h6ft6qkecadn8ujrf6pl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAd_N9xkljGJY5hx2FSX63S_ADIbLey_yo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "691377591215-rmv0gc2bdnk9h6ft6qkecadn8ujrf6pl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
